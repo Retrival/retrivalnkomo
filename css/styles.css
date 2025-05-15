@@ -3999,7 +3999,11 @@ img.u-pull-left {
     }
 
     .folio-list__item-link {
-        padding-left : calc(4.25 * var(--space));
+        padding-left : calc(7.25 * var(--space));
+    }
+
+    .folio-list__item-text{
+        padding-top: 32px;
     }
 }
 
@@ -4010,7 +4014,8 @@ img.u-pull-left {
     }
 
     .folio-list__item {
-        margin-bottom : 0;
+        margin-bottom : var(--vspace-0_75);
+        padding-right: 10px;
     }
 
     .folio-list__item-link {
